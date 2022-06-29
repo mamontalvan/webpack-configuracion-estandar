@@ -7,7 +7,7 @@ export const saludar = (nombre = 'Sin Nombre') => {
     // console.log(`Creando etiqueta H1`);
 
     const h1 = document.createElement('h1');
-    h1.innerText = `Hola ${nombre} Montalván`;
+    h1.innerText = `Hola ${nombre} Montalván. Tu proyecto con Webpack está listo para iniciar a trabajar`;
 
     document.body.append(h1);
 
